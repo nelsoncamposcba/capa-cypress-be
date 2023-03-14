@@ -1,0 +1,27 @@
+{
+  "name": "capacitacion-cypress-be",
+  "version": "1.0.0",
+  "description": "Proyecto de practica para la capacitacion de cypress en backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsoncamposcba/capa-cypress-be.git"
+  },
+  "keywords": [
+    "cypress",
+    "be",
+    "capacitacion"
+  ],
+  "author": "Nelson Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsoncamposcba/capa-cypress-be/issues"
+  },
+  "homepage": "https://github.com/nelsoncamposcba/capa-cypress-be#readme",
+  "devDependencies": {
+    "cypress": "^12.8.0"
+  }
+}
