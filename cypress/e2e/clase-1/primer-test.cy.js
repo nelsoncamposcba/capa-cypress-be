@@ -34,7 +34,7 @@ describe("Test suite de TC placeholder", function(){
 
         cy.request({
             method: 'POST',
-            url: "https://jsonplaceholder.typicode.com/postssd",
+            url: "https://jsonplaceholder.typicode.com/posts",
             body: body_request,
             failOnStatusCode: false
         }).then(resp => {

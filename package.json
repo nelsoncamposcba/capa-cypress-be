@@ -23,5 +23,8 @@
   "homepage": "https://github.com/nelsoncamposcba/capa-cypress-be#readme",
   "devDependencies": {
     "cypress": "^12.8.0"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.10.3"
   }
 }

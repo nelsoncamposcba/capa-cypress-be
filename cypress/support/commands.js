@@ -23,3 +23,19 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('hola_mundo', () => {
+    cy.log('Hola Mundo Cypress')
+})
+
+Cypress.Commands.add('hola_mundo_persona', (nombre, apellido) => {
+    cy.log('Hola al mundo Cypress: ' + nombre + " " + apellido)
+})
+
+Cypress.Commands.add('get_user_id', (id) => {
+    cy.request('https://jsonplaceholder.typicode.com/todos/' + id)
+        .then(resp => {
+            cy.wrap(resp);
+    })
+
+})
